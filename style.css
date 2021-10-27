@@ -1,0 +1,96 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #FFF5FB;
+  color: #58607E;
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  color: #21DBD0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color : #6698FF;
+}
+
+.presentation a {
+  background-color : #6698FF;
+  color:white;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.presentation a:hover {
+  background-color: #0C52FF;
+}
+
+.footer a:hover {
+  color: #0C52FF;
+}
+
+.container {
+  margin: 0 auto;
+  width : 100%;
+}
+
+.white-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 6px;
+  margin: 30px 80px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 9%);
+}
+
+.round-img {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid #21DBD0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
